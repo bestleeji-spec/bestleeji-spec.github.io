@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이지혜 | Yak-S</title>
+  <meta name="description" content="푸드케어약선학과 4학년 이지혜 — 출처 기반 전통 고조리서(식료찬요) 지식 탐색 AI 플랫폼 Yak-S">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@600;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== 내비게이션 ===== -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav__logo">Yak-S<span>· 이지혜</span></a>
+    <nav>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#about">소개</a></li>
+        <li><a href="#problem">문제</a></li>
+        <li><a href="#solution">솔루션</a></li>
+        <li><a href="#business">사업모델</a></li>
+        <li><a href="#roadmap">로드맵</a></li>
+        <li><a href="#team">팀</a></li>
+        <li><a href="#contact">연락</a></li>
+      </ul>
+    </nav>
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" aria-label="다크 모드 전환">
+        <span class="icon-sun">☀</span><span class="icon-moon">☾</span>
+      </button>
+      <button class="icon-btn nav__burger" id="navBurger" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 히어로 ===== -->
+    <section class="hero" id="home">
+      <div class="hero__watermark" aria-hidden="true">食療纂要</div>
+      <div class="hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">푸드케어약선학과 4학년 · Yak-S 대표</p>
+          <h1 class="hero__title">
+            <span class="hero__brand">Yak-S</span>
+            전통의 지식이<br>오늘의 식탁으로
+          </h1>
+          <p class="hero__lead">
+            안녕하세요, <strong>이지혜</strong>입니다.<br>
+            어려운 옛 음식책을 쉽게 풀어주고, <b>원문과 출처까지 함께 보여주는</b>
+            전통 식생활 고문헌 탐색·해석 AI 플랫폼 <b>Yak-S</b>를 만들고 있습니다.
+          </p>
+          <div class="hero__cta">
+            <a href="#solution" class="btn btn--primary">Yak-S 살펴보기</a>
+            <a href="#demo" class="btn btn--ghost">화면 미리보기 →</a>
+          </div>
+        </div>
+
+        <!-- 서비스 화면 목업 -->
+        <div class="mock" aria-label="Yak-S 서비스 화면 예시">
+          <div class="mock__bar"><i></i><i></i><i></i><span>Yak-S</span></div>
+          <div class="mock__body">
+            <div class="mock__search">
+              <span id="heroTyping"></span><span class="caret">|</span>
+              <span class="mock__go">→</span>
+            </div>
+            <div class="mock__grid">
+              <div class="mock__card">
+                <p class="mock__label">현대어 풀이</p>
+                <span class="sk"></span><span class="sk"></span><span class="sk sk--short"></span>
+              </div>
+              <div class="mock__card mock__card--src">
+                <p class="mock__label">원문 및 출처</p>
+                <p class="mock__orig">原文</p>
+                <span class="sk sk--short"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 소개 ===== -->
+    <section class="section" id="about">
+      <header class="section__head reveal">
+        <p class="section__kicker">About</p>
+        <h2>직접 겪은 문제에서 출발했습니다</h2>
+      </header>
+      <div class="about">
+        <div class="about__text reveal">
+          <p>
+            푸드케어약선학과에서 『식료찬요』를 공부하며, 좋은 자료는 분명히 있는데
+            <b>오늘날 사람이 활용할 수 있는 형태로 바꾸는 비용이 너무 크다</b>는 것을 직접 경험했습니다.
+          </p>
+          <p>
+            약선-GPT Lab 활동으로 고문헌 데이터화를 시도했고, 그 경험을 바탕으로
+            <b>AI의 답을 믿게 만드는 것이 아니라, 사용자가 근거를 직접 확인하게 만드는</b>
+            플랫폼 Yak-S를 기획했습니다.
+          </p>
+          <blockquote class="quote">좋은 지식을 남기는 것을 넘어, 실제로 쓰이게 만드는 플랫폼</blockquote>
+        </div>
+        <ul class="fit reveal">
+          <li><span>✓</span>푸드케어약선학과 전공자</li>
+          <li><span>✓</span>식료찬요 학습 과정에서 직접 문제 경험</li>
+          <li><span>✓</span>약선-GPT Lab 활동을 통한 데이터화 시도</li>
+          <li><span>✓</span>전공자 네트워크 기반 초기 빠른 검증 가능</li>
+          <li class="fit__role">역할 · PM / 도메인 기준 수립 / 고객검증</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 문제 ===== -->
+    <section class="section section--tint" id="problem">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="section__kicker">01 · Problem</p>
+          <h2>왜 Yak-S가 필요한가?</h2>
+          <p class="section__desc">전통 식생활 지식은 남아 있지만, 실제로 활용하기에는 탐색·해석 비용이 너무 큽니다.</p>
+        </header>
+
+        <div class="cards3">
+          <article class="pcard reveal">
+            <span class="pcard__icon">📖</span>
+            <h3>고문헌 접근 장벽</h3>
+            <p>식료찬요 등은 한자·고어 중심으로 구성되어 원문 이해가 어렵습니다.</p>
+          </article>
+          <article class="pcard reveal">
+            <span class="pcard__icon">⏳</span>
+            <h3>과도한 시간 소요</h3>
+            <p>단순 정보 탐색 <b>2–3분</b>, 현대적 해석·정리에는 <b>30–60분</b>이 걸립니다.</p>
+          </article>
+          <article class="pcard reveal">
+            <span class="pcard__icon">🍽</span>
+            <h3>현대 활용의 어려움</h3>
+            <p>과거와 현재의 식재료명 표기가 달라 실제 메뉴·교육 활용이 어렵습니다.</p>
+          </article>
+        </div>
+
+        <div class="journey reveal">
+          <h3 class="sub">현재의 정보 탐색 과정 <small>(예시)</small></h3>
+          <ol class="flow flow--muted">
+            <li><b>원문 서적</b><span>식료찬요 등 고문헌 열람</span></li>
+            <li><b>Google·Naver 검색</b><span>키워드로 개별 검색</span></li>
+            <li><b>논문·학술자료</b><span>추가 탐색 및 비교</span></li>
+            <li><b>ChatGPT·Gemini</b><span>AI 해석 (결과 검증 필요)</span></li>
+            <li><b>직접 정리</b><span>사용자가 종합·정리</span></li>
+          </ol>
+          <p class="journey__warn">! 여러 채널을 오가며, 최종적으로 사용자가 다시 출처와 의미를 검증해야 합니다.</p>
+        </div>
+
+        <div class="split">
+          <div class="reveal">
+            <h3 class="sub">주요 타겟 고객</h3>
+            <ul class="targets">
+              <li><b>영양사</b><span>건강식·교육용 식단 자료 탐색</span></li>
+              <li><b>조리사 · 식당운영</b><span>약선 메뉴 개발과 식재료 스토리 발굴</span></li>
+              <li><b>강사 · 관련 전공자</b><span>수업자료·연구·콘텐츠 제작용 신뢰도 높은 자료</span></li>
+            </ul>
+            <p class="note"><b>Early Adopter</b> · 교수, 학생, 졸업생, 약선 관련 업체</p>
+          </div>
+          <div class="reveal">
+            <h3 class="sub">기존 대안의 한계</h3>
+            <div class="table-wrap">
+              <table class="compare">
+                <thead>
+                  <tr><th>평가 항목</th><th>원문 서적</th><th>검색 / 논문</th><th>범용 AI</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>접근성</td><td class="lo">낮음</td><td class="hi">높음</td><td class="hi">높음</td></tr>
+                  <tr><td>출처 확인</td><td class="hi">높음</td><td class="mid">부분적</td><td class="lo">낮음</td></tr>
+                  <tr><td>현대어 해석</td><td class="lo">낮음</td><td class="mid">부분적</td><td class="hi">높음</td></tr>
+                  <tr><td>현대 식재료 연결</td><td class="lo">낮음</td><td class="mid">부분적</td><td class="mid">부분적</td></tr>
+                  <tr><td>업무 활용성</td><td class="lo">낮음</td><td class="mid">부분적</td><td class="mid">부분적</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <p class="callout reveal">💡 좋은 자료가 없는 것이 아니라, <b>오늘날 사람이 활용 가능한 형태로 전환하는 비용</b>이 큽니다.</p>
+      </div>
+    </section>
+
+    <!-- ===== 솔루션 ===== -->
+    <section class="section" id="solution">
+      <header class="section__head reveal">
+        <p class="section__kicker">02 · Solution</p>
+        <h2>고문헌을 <em>질문 가능한 지식</em>으로</h2>
+        <p class="section__desc">Yak-S는 전통 식생활 고문헌을 질문 가능한 지식으로 바꾸는 출처 기반 AI 플랫폼입니다.</p>
+      </header>
+
+      <ol class="flow flow--steps reveal" id="flowSteps">
+        <li><b>질문 입력</b></li>
+        <li><b>전통 식생활 DB 검색</b></li>
+        <li><b>현대어 풀이 생성</b></li>
+        <li><b>원문 · 출처 제시</b></li>
+        <li><b>현대 식재료 연결</b></li>
+      </ol>
+
+      <div class="features">
+        <article class="feature reveal"><span>🔍</span><h3>자연어 검색</h3><p>일상적인 말로 질문할 수 있습니다.</p></article>
+        <article class="feature reveal"><span>📜</span><h3>원문 + 현대어</h3><p>답변과 함께 고문헌 원문을 제공합니다.</p></article>
+        <article class="feature reveal"><span>🗂</span><h3>출처 카드</h3><p>문헌명, 항목, 원문 위치를 확인합니다.</p></article>
+        <article class="feature reveal"><span>🥕</span><h3>식재료 매핑</h3><p>전통 명칭을 현대 식재료와 연결합니다.</p></article>
+      </div>
+
+      <!-- 데모 -->
+      <div class="demo reveal" id="demo">
+        <div class="mock__bar"><i></i><i></i><i></i><span>Yak-S 화면 미리보기</span></div>
+        <div class="demo__body">
+          <form class="demo__search" id="demoForm" autocomplete="off">
+            <input type="text" id="demoInput" placeholder="전통 문헌에 대해 질문해 보세요" aria-label="질문">
+            <button type="submit" class="btn btn--primary">질문</button>
+          </form>
+          <div class="demo__chips">
+            <button type="button" class="chip" data-q="목이 불편할 때 전통 문헌에는 어떤 음식이 기록되어 있나요?">목이 불편할 때 어떤 음식이?</button>
+            <button type="button" class="chip" data-q="아메리카노는 어떤 체질에 좋나요?">근거가 없는 질문이라면?</button>
+          </div>
+          <div class="demo__result" id="demoResult">
+            <p class="demo__empty">위의 예시 질문을 눌러 Yak-S의 답변 구조를 확인해 보세요.</p>
+          </div>
+          <p class="demo__note">※ 발표자료의 예시 화면을 재구성한 UI 프로토타입입니다. 실제 서비스 데이터는 전공자 검수를 거쳐 구축됩니다.</p>
+        </div>
+      </div>
+
+      <p class="callout callout--center reveal">AI의 답을 믿게 만드는 것이 아니라, <b>사용자가 근거를 직접 확인하게 만드는 구조</b></p>
+    </section>
+
+    <!-- ===== 데이터 경쟁력 ===== -->
+    <section class="section section--tint" id="data">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="section__kicker">03 · Data</p>
+          <h2>핵심 차별성과 데이터 경쟁력</h2>
+          <p class="section__desc">Yak-S의 경쟁력은 범용 AI보다 더 큰 모델이 아니라, <b>전공자 검수 기반의 구조화된 전문 데이터</b>에 있습니다.</p>
+        </header>
+
+        <div class="pipeline reveal">
+          <h3 class="sub">Yak-S Knowledge DB 구축 프로세스</h3>
+          <ol class="pipeline__list" id="pipeline">
+            <li>고문헌 확보</li><li>OCR</li><li>오류교정</li><li>현대어 풀이</li>
+            <li>식재료 추출</li><li>출처 연결</li><li>전공자 검수</li><li class="is-db">Yak-S DB</li>
+          </ol>
+        </div>
+
+        <div class="features features--4">
+          <article class="feature reveal"><span>🧑‍🔬</span><h3>전공자 검수</h3><p>도메인 이해를 바탕으로 데이터 신뢰성을 확보합니다.</p></article>
+          <article class="feature reveal"><span>❝</span><h3>원문 · 출처 제공</h3><p>답변의 문헌 근거를 바로 확인할 수 있습니다.</p></article>
+          <article class="feature reveal"><span>🌱</span><h3>현대 활용성</h3><p>과거 식재료를 현재 재료와 연결합니다.</p></article>
+          <article class="feature reveal"><span>🛡</span><h3>안전 가이드라인</h3><p>치료·처방이 아닌 교육·참고 중심 정보를 제공합니다.</p></article>
+        </div>
+
+        <div class="moat reveal">
+          <p class="moat__title">핵심 자산 = 구축된 데이터</p>
+          <div class="moat__steps">
+            <span class="count" data-to="100">0</span><i>→</i>
+            <span class="count" data-to="1000">0</span><i>→</i>
+            <span class="count" data-to="10000">0</span><em>건</em>
+          </div>
+          <p>축적될수록 강력한 진입장벽이 형성됩니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 사업모델 ===== -->
+    <section class="section" id="business">
+      <header class="section__head reveal">
+        <p class="section__kicker">04 · Scale-up</p>
+        <h2>수익모델과 시장진입 전략</h2>
+        <p class="section__desc">초기에는 많은 고객보다, 실제로 비용을 지불하는 첫 고객을 만드는 데 집중합니다.</p>
+      </header>
+
+      <div class="split">
+        <div class="plans">
+          <article class="plan reveal">
+            <p class="plan__tag">전문가 구독형</p>
+            <h3>Yak-S Professional</h3>
+            <ul>
+              <li>전문 검색 및 원문·현대어 비교</li>
+              <li>출처 확인 및 검색 저장, 리포트 추출</li>
+            </ul>
+            <p class="plan__price">월 9,900–19,900원 <small>(가설)</small></p>
+          </article>
+          <article class="plan plan--edu reveal">
+            <p class="plan__tag">교육기관 라이선스</p>
+            <h3>Yak-S EDU</h3>
+            <ul>
+              <li>학과·강좌 단위 도입</li>
+              <li>학생 20–30명 대상 파일럿 운영</li>
+              <li>학기 기반 단체 사용권 계약</li>
+            </ul>
+          </article>
+        </div>
+        <ol class="gtm reveal">
+          <li><b>검증시장</b> <small>교수 · 학생 · 졸업생</small><span>실제 사용으로 제품 가치 및 유용성 검증</span></li>
+          <li><b>초기 유료시장</b> <small>영양사 · 조리사 · 식당운영자</small><span>현업 전문가의 실질적 정보 탐색 문제 해결</span></li>
+          <li><b>기관 확장</b> <small>대학 · 평생교육기관</small><span>정규 교육과정 보조 도구 및 단체 라이선스 확장</span></li>
+          <li class="gtm__goal">초기 목표 · 첫 유료고객 1명 / 파일럿 기관 1곳 확보</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== 로드맵 & KPI ===== -->
+    <section class="section section--tint" id="roadmap">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="section__kicker">05 · Roadmap</p>
+          <h2>실행 로드맵 및 핵심 KPI</h2>
+          <p class="section__desc">완성형 서비스보다 빠른 검증을 우선하며, 데이터와 고객을 함께 축적합니다.</p>
+        </header>
+
+        <ol class="timeline reveal">
+          <li><span>0–2개월</span><b>문제 인터뷰 / 핵심고객 정의</b></li>
+          <li><span>3–4개월</span><b>식료찬요 기반 MVP 개발</b></li>
+          <li><span>5–6개월</span><b>사용자 테스트 / 기능 고도화</b></li>
+          <li><span>7–9개월</span><b>유료전환 검증 / 첫 고객 확보</b></li>
+          <li><span>10–12개월</span><b>교육기관 파일럿 / 서비스 확장</b></li>
+        </ol>
+
+        <h3 class="sub reveal">핵심 KPI <small>(12개월 목표)</small></h3>
+        <div class="kpis">
+          <div class="kpi reveal"><p>고객 인터뷰</p><b><span class="count" data-to="30">0</span>명+</b></div>
+          <div class="kpi reveal"><p>MVP 사용자</p><b><span class="count" data-to="10">0</span>명+</b></div>
+          <div class="kpi reveal"><p>동일 문제 확인</p><b><span class="count" data-to="10">0</span>명+</b></div>
+          <div class="kpi reveal"><p>유료사용 의향</p><b><span class="count" data-to="3">0</span>명+</b></div>
+          <div class="kpi kpi--key reveal"><p>첫 유료고객</p><b><span class="count" data-to="1">0</span>명</b></div>
+          <div class="kpi kpi--key reveal"><p>파일럿 기관</p><b><span class="count" data-to="1">0</span>곳</b></div>
+        </div>
+
+        <div class="split split--chart">
+          <div class="chart reveal">
+            <h3 class="sub">데이터 성장 계획</h3>
+            <svg viewBox="0 0 420 200" id="growthChart" role="img" aria-label="데이터 성장 계획: 2개월 30건, 4개월 100건, 8개월 500건, 12개월 1000건">
+              <line class="chart__axis" x1="30" y1="170" x2="400" y2="170"/>
+              <polyline class="chart__line" id="growthLine" points=""/>
+              <g id="growthDots"></g>
+            </svg>
+          </div>
+          <p class="callout reveal">검증의 핵심: 많이 쓰는 서비스가 아니라, <b>반복 사용과 지불 의사가 확인되는 서비스</b> 구축</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 팀 & 활동 ===== -->
+    <section class="section" id="team">
+      <header class="section__head reveal">
+        <p class="section__kicker">06 · Team</p>
+        <h2>왜 이 팀이 해낼 수 있는가?</h2>
+        <p class="section__desc">Yak-S는 시장 유행을 따라 만든 AI가 아니라, 창업자가 직접 겪은 문제에서 출발한 실전형 아이템입니다.</p>
+      </header>
+
+      <div class="team">
+        <article class="member member--lead reveal">
+          <div class="member__avatar">이</div>
+          <h3>이지혜 <small>대표</small></h3>
+          <p>PM / 도메인 기준 수립 / 고객검증</p>
+        </article>
+        <article class="member reveal">
+          <div class="member__avatar">팀</div>
+          <h3>황윤우 · 진부련 <small>팀원</small></h3>
+          <p>고문헌 데이터 정제, 검수</p>
+        </article>
+        <article class="member reveal">
+          <div class="member__avatar">&lt;/&gt;</div>
+          <h3>박승희 <small>기술 파트너</small></h3>
+          <p>RAG, 웹 MVP 구현</p>
+        </article>
+      </div>
+
+      <h3 class="sub reveal">1년간의 준비 활동 <small>약선-GPT 활동 및 성과, Yak-S 사전조사</small></h3>
+      <ol class="activity reveal">
+        <li><time>2026.03.21</time>고조리서 연구활동</li>
+        <li><time>2026.04.18</time>고조리서 연구활동</li>
+        <li><time>2026.05.02</time>약선학과 지도교수 면담</li>
+        <li class="is-star"><time>2026.05.08</time>실무 성과</li>
+        <li><time>2026.05.23</time>고조리서 연구활동</li>
+        <li class="is-star"><time>2026.06.13</time>실무 성과</li>
+        <li><time>2026.08.27</time>Yak-S 사전조사 진행</li>
+        <li><time>2026.09.14</time>Yak-S 사전조사 진행</li>
+      </ol>
+
+      <p class="callout callout--center reveal">🎯 최종 목표 · 전통 식생활 지식을 오늘날 <b>교육과 조리, 외식 현장</b>에서 쉽게 활용할 수 있는 전문 AI 플랫폼 구축</p>
+    </section>
+
+    <!-- ===== 연락 ===== -->
+    <section class="section contact" id="contact">
+      <header class="section__head reveal">
+        <p class="section__kicker">Contact</p>
+        <h2>함께 검증해 주세요</h2>
+        <p class="section__desc">영양사, 조리사, 식당운영자, 약선 관련 교수·학생·졸업생의 인터뷰와 MVP 테스트 참여를 기다립니다.</p>
+      </header>
+      <div class="contact__links reveal">
+        <a class="btn btn--primary" href="mailto:bestleeji@gmail.com">✉ bestleeji@gmail.com</a>
+        <a class="btn btn--ghost" href="https://github.com/bestleeji-spec" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><b>Yak-S</b> · 전통을 잇는 기술, 더 건강한 내일</p>
+    <p>© <span id="year"></span> 이지혜 · 모두의창업 2기</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="맨 위로">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
